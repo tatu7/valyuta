@@ -1,0 +1,79 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: #f1f2f3;
+}
+html {
+  font-size: 62.5%;
+}
+.title {
+  text-align: center;
+  font-weight: 900;
+  color: rgb(2, 121, 75);
+  font-size: 3rem;
+}
+.erorr {
+  font-size: 2rem;
+  text-align: center;
+  color: red;
+}
+.container {
+  margin: 3rem auto;
+  width: 85%;
+}
+.malumot {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.4rem;
+  margin: 2.8rem 0;
+  font-size: 2.2rem;
+}
+.element {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.4rem;
+  font-size: 1.5rem;
+  color: aliceblue;
+}
+.box {
+  background-color: rgb(3, 134, 134);
+  padding: 2.4rem;
+  height: auto;
+}
+.draw {
+  background-color: aliceblue;
+  width: 100%;
+  height: 0.1rem;
+}
+.time,
+.main {
+  color: rgb(10, 235, 21);
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0;
+}
+.findBtn {
+  outline: none;
+  border: none;
+  padding: 1rem 2rem;
+}
+.inputCreate {
+  outline: none;
+  border: none;
+  width: 40%;
+  padding: 1rem 2rem;
+  background-color: aqua;
+}
+.loading {
+  transition: 0.8s all;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  display: none;
+}
