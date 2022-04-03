@@ -8,6 +8,7 @@ body {
 html {
   font-size: 62.5%;
 }
+
 .title {
   text-align: center;
   font-weight: 900;
@@ -26,8 +27,6 @@ html {
 .malumot {
   display: flex;
   justify-content: space-between;
-  padding: 2.4rem;
-  margin: 2.8rem 0;
   font-size: 2.2rem;
 }
 .element {
@@ -37,6 +36,20 @@ html {
   font-size: 1.5rem;
   color: aliceblue;
 }
+.convertBtn {
+  outline: none;
+  border: none;
+  height: 5rem;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  background-color: crimson;
+}
+.sel2,
+.sel1 {
+  display: flex;
+  flex-direction: column;
+}
+
 .box {
   background-color: rgb(3, 134, 134);
   padding: 2.4rem;
@@ -61,6 +74,39 @@ form {
   outline: none;
   border: none;
   padding: 1rem 2rem;
+  background-color: crimson;
+}
+.select {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+  opacity: 0;
+}
+.sumInput1,
+.sumInput2 {
+  outline: none;
+  padding: 0.8rem 1rem;
+  width: 233%;
+  margin: 2rem 0;
+  border: none;
+  background-color: rgb(3, 112, 112);
+  color: rgb(255, 255, 255);
+}
+.select select {
+  outline: none;
+  padding: 0.8rem 1rem;
+  width: 244%;
+  border: none;
+  background-color: aqua;
+  color: #555;
+}
+.select option {
+  outline: none;
+  padding: 0.8rem 1rem;
+  width: 40%;
+  border: none;
+  background-color: aqua;
+  color: #555;
 }
 .inputCreate {
   outline: none;
@@ -68,6 +114,12 @@ form {
   width: 40%;
   padding: 1rem 2rem;
   background-color: aqua;
+}
+.searchInput {
+  background-color: rgb(9, 233, 177);
+  display: block;
+  margin: 1rem auto;
+  width: 48%;
 }
 .loading {
   transition: 0.8s all;
